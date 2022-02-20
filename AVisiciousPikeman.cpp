@@ -13,7 +13,7 @@ int compare(const void *p, const void *q)
 int main()
 {
     //sets up all the variables needed in the program
-    long n, t, a, b, c, penalty, ans, i, time_total;
+    long n, t, a, b, c, i, ans, penalty, time_total;
     long times[10000];
 
     cin >> n >> t >> a >> b >> c >> times[0];
